@@ -1,0 +1,182 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+    line-height: 1.6;
+    background: linear-gradient (to bottom, rgb(10, 160, 85) 72.5%, transparent 22.5% );
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 60px;
+    flex: 1;
+    padding-bottom: 60px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    transform: translateX(-30px);
+    opacity: 0;
+    animation: wiggleInBody 0s ease forwards;
+
+}
+
+@keyframes wiggleInBody {
+    0% {
+      transform: translateX(-30px);
+      opacity: 0;
+    }
+    25% {
+      transform: translateX(10px); 
+    }
+    50% {
+      transform: translateX(-10px);
+    }
+    75% {
+      transform: translateX(5px); 
+    }
+    100% {
+      transform: translateX(0); 
+      opacity: 1;
+    }
+  }
+
+
+header {
+    padding: 14px;
+    background-image: linear-gradient(rgb(5, 109, 57), rgb(5, 109, 57), rgb(5, 109, 57) );
+    font-weight: bold;
+    text-align: center;
+    word-spacing: 70px;
+    font-size: 25px;
+}
+nav img{
+    width: 150px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    transition: background-color 0.3s ease;
+
+}
+
+nav ul li a:hover {
+    background-color: rgb(11, 73, 29);
+}
+
+.h1 {
+    margin-top: -10px;
+    margin-left: 100px;
+    margin-right: 500px; 
+}
+
+.h1 {   
+    display: inline-block;     
+    border-radius: 8px;   
+}
+
+.h1 h1 {
+
+    font-weight: normal;
+    color: rgb(210, 255, 248);
+    font-size: 30px;
+    width: 98vw;   
+    display: flex;
+    margin: 8px;
+    font-size: 30px;
+    background-position-x: center;
+    flex-direction: column;
+    margin-left: -132px;
+
+    background-color: rgb(5, 109, 57);
+    padding: 20px;
+    text-align: center;
+    text-shadow: 1px 1px 1px 10px rgb(0, 0, 0);
+
+}
+
+.DESCRIPTION {
+
+    font-size: 15px;
+    color: rgb(8, 8, 8);
+    font-style: normal;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: normal;
+    text-align: justify;
+
+    margin-top: -10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.DESCRIPTION p{
+margin-bottom: 100px;
+display: center;
+justify-content: space-evenly;
+gap: 40px;
+background-color: white;
+border: 2px solid #ddd;
+padding: 10px;
+width: 1260px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+border-color: rgb(8, 145, 38);
+}
+
+.h3 h3 {
+    font-weight: normal;
+    color: rgb(3, 148, 40);
+    font-size: 30px;
+    width: 98vw;   
+    display: flex;
+    margin: 8px;
+    font-size: 30px;
+    background-position-x: center;
+    flex-direction: column;
+    margin-left: -132px;
+
+}
+
+.body img1 {
+    display: inline-block;
+    padding: 20px;
+    image-orientation: center;
+    background: #ffffff00;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);  
+    transition: transform 0.6s ease, box-shadow 0.3s ease; 
+
+}
+
+.h2 a{
+
+    background-color:white;
+    color: rgb(59, 133, 120);
+    font-family:cursive;
+    font-weight:bold ;
+    font-size: 15px;
+}
+.footer {
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    width: 100%; 
+    font-size: 15px;
+    background-image: linear-gradient(rgb(5, 109, 57), rgb(5, 109, 57), rgb(5, 109, 57) );
+    color: white; 
+    text-align: center; 
+    padding: 10px 0; 
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 0%;
+    margin-top: 50px;
+  }
+      
